@@ -1,0 +1,21 @@
+.table {
+    margin-top: 20px;
+    /* it will scrool because i putted a dfixed height */
+    overflow: scroll;
+    height: 400px;
+    color: #6a5b6a;
+    background-color: white;
+}
+
+.table tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table td {
+    padding: 0.5rem;
+}
+
+.table tr:nth-of-type(odd) {
+    background-color: #f3f2f8;
+}
